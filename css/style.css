@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #eee;
+	background-color: #000;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -239,6 +239,8 @@ border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
+background: #167F39;		
+color: white;
 }
 
 #mainpanel .b1 {
@@ -249,15 +251,17 @@ padding: 0px 0 0 0;
 width: 240px;
 padding: 18px 18px 18px 18px;
 margin: 0;
-
+background: #167F39;
 }
 
 #title {
 font-weight: bold;
+color: white;
 }
 
 #titletext {
 padding: 6px 0 10px 0;
+color: white;
 }
 
 #info {
@@ -409,6 +413,7 @@ background-image: url('../images/sprite.png');
 #legend dd {
 margin-bottom: 8px;
 color: #000;
+color: white;
 }
 
 #mainpanel .infos dd {
@@ -421,6 +426,7 @@ background-position: -11px -119px;
 
 #mainpanel .edge {
 background-position: -51px -122px;
+color: black;
 }
 
 #mainpanel .colours {
@@ -481,7 +487,7 @@ display: none;
 
 #zoom .z {
 	background:#fff;
-	background-color:rgba(255,255,255,0.7);
+	background-color: #167F39;
 	width: 60px;
 	height: 60px;
 	cursor: pointer;
