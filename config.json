@@ -3,19 +3,19 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "http://data7.blog/wp-content/uploads/2017/06/logo.png",
+    "file": "http://data7.blog/wp-content/uploads/2017/08/logo_240x72.png",
     "link": "www.data7.blog",
     "text": "Janderson Toth"
   },
   "text": {
-    "more": "fdsafdscfdsfffffdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddcdsf\nfsddsfdsfsd\ndsfdsfds",
-    "intro": "Rdes kfdnsushbcfdusvhbscdscd\nfdsfdsfsfsd",
+    "more": "O grafo ao lado foi criado através da rede de amizade do autor. Dos 1.992 amigos, apenas 27 não contem nenhuma ligação com outro amigo. ",
+    "intro": "Grafo ao representando a rede de amizade de um usuário. Dados reais.",
     "title": "Rede de amizades de Janderson Toth"
   },
   "legend": {
-    "edgeLabel": "relação de amizade",
-    "colorLabel": "hubs de amizades",
-    "nodeLabel": "amigo"
+    "edgeLabel": "Relação de amizade/Link",
+    "colorLabel": "Clusters de amigos",
+    "nodeLabel": "Amigo/Usuário"
   },
   "features": {
     "search": true,
