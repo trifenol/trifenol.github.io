@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #000;
+	background-color: #eee;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -426,6 +426,7 @@ background-position: -11px -119px;
 
 #mainpanel .edge {
 background-position: -51px -122px;
+color: black
 }
 
 #mainpanel .colours {
