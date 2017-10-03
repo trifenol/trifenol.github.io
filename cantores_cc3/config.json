@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "http://data7.blog/wp-content/uploads/2017/10/Kolab_NEW_red-e1507043112106.png",
+    "link": "",
+    "text": "Janderson Pereira (Kolab)"
+  },
+  "text": {
+    "more": "Mapeamento realizado no dia 02/10 nos perfis @anitta, @projota, @luansantana, @pabllovittar, @simoneesimaria, @wesleysafadao, @valescaoficial, @SolAlmeidaa e @negodoborel",
+    "intro": "Mapa de interação feito durante 1h do dia 02/10. Foram mapeados todos os 8 perfis base: @anitta, @projota, @luansantana, @pabllovittar, @simoneesimaria, @wesleysafadao, @vaslecaoficial, @SolAlmeidaa e @negodoborel.",
+    "title": "Mapa de interação - Música"
+  },
+  "legend": {
+    "edgeLabel": "Interação",
+    "colorLabel": "Azul - Cantores Mapeados",
+    "nodeLabel": "Atores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "profile_image"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
