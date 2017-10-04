@@ -8,19 +8,19 @@
     "text": "Janderson Toth"
   },
   "text": {
-    "more": "",
-    "intro": "",
-    "title": "Grafo de Canais-Vídeos Relacionados"
+    "more": "Para a criação desse grafo foi utlizado os 100 vídeos análisados na segunda fase, que foram amparados em 76 canais únicos. Para a extração desses dados foi utlizado a ferramenta YouTube Data Tools, do DMI, usando o recurso Video Network (definição: This module creates a network of relations between videos, starting from a search or a list of video ids.). Inserindo 100 ids dos vídeos mais relevantes na primeira fase, obtivemos aproximadamente 7460 nós(vídeos) e 208 mil relações entre eles. Para melhor compreensão, os dados foram racionalizados, ou seja, os dados de vídeo foram mesclados para formar os dados do Canal. Nessa segunda fase, os 76 canais são analisados de forma separada do todo e as suas conexões(911 arestas).",
+    "intro": "Veja a descrição mais longa. ",
+    "title": "Grafo de Canais Totais-Vídeos Relacionados"
   },
   "legend": {
     "edgeLabel": "Vídeos Relacionados",
     "colorLabel": "Modularidade",
-    "nodeLabel": "Canais"
+    "nodeLabel": "Canais Totais"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "color",
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
