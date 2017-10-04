@@ -10,17 +10,17 @@
   "text": {
     "more": "",
     "intro": "",
-    "title": "Grafo de Canais-Vídeos Relacionados"
+    "title": "Grafo de Canais Totais-Vídeos Relacionados"
   },
   "legend": {
     "edgeLabel": "Vídeos Relacionados",
     "colorLabel": "Modularidade",
-    "nodeLabel": "Canais"
+    "nodeLabel": "Canais Totais"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "color",
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
