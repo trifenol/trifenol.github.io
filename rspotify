@@ -1,0 +1,87 @@
+# RSpotify: Você quer sucesso, @? - Caso Anitta
+# Mais informações na página: 
+# Tutorial de base: 
+
+# Eliminando banco de dados anterior/salvo.
+rm(list = ls())
+
+# alterando o diretório de trabalho
+setwd("C:/Users/Janderson/Google Drive/Data7/Rspotify")
+
+
+##########################
+
+# Checando se os pacotes estao instalados, instalando os faltantes e executando todos os pacotes necessários
+if(!require(devtools)){
+  install.packages("devtools")
+  library(devtools)
+}
+
+if(!require(Rspotify)){
+  install_github("tiagomendesdantas/Rspotify")
+  library(Rspotify)
+}
+
+
+##########################
+  
+# Acessando a API do Spotify
+app_id <- "API_Toth" # aqui entra o nome que voce deu para a aplicação
+client_id <- "a5a2ec8c7c5f44789142d01d97361eb6" # Inserrir client_id
+client_secret <- "75d40faf3acd430db75edfc3671e997b" #Inserir Client_secret
+
+# Aglutinando as chaves de acesso
+keys <- spotifyOAuth(app_id,client_id,client_secret)
+
+
+##########################
+
+
+# Buscando por um usuário
+usuario <- getUser("12161883573",token=keys)
+
+# display_name        id         followers
+# Pedro Meirelles 12161883573        79
+
+
+procurando_artista <-searchArtist("Raca+negra",token=keys)
+# Para nomes compostos é só usar o +. Ex: "Móveis+coloniais+de+Acaju". Lembre-se de não usar cedilha, acentos ou qualquer outro caractér que dê problema com o UTF-8
+
+
+artista_info <- getArtistinfo("1RnHJ07H3jcpay9PrUPjnt",token=keys)
+#           id              name       popularity followers               genres
+# 1RnHJ07H3jcpay9PrUPjnt Raça Negra         67    181737  axe,pagode,sertanejo,sertanejo universitario
+
+artista_albums <-getAlbums("1RnHJ07H3jcpay9PrUPjnt",token=keys)
+
+#           id              name    album_type      available_markets
+# 2xtRHrXduvq6S7rrzmS0dK    Bang      album     AD;AR;AT;AU;BE;BG;BO;BR...
+
+album_rn_amigos2 <-getAlbum("0hSUBFqEpxTYTXyYfVncOw",token=keys) #Lembrar de trocar para anita
+
+#           id              name          duration_ms    track_number disc_number
+# 7LKdJ2eImSObhCndYIkYzI Small Town Moon      179200            1           1   
+
+# available_markets                         preview_url
+# AD, AR, AT, AU, BE, BG, BO, BR     https://p.scdn.co/mp3-preview/...
+
+
+musica_info <- getFeatures("0y5HWbAnJ6qrjeBuFL52hO",token=keys)
+
+names(musica_info)
+#[1] "id"               "danceability"     "energy"           "key"             
+#[5] "loudness"         "mode"             "speechiness"      "acousticness"    
+#[9] "instrumentalness" "liveness"         "valence"          "tempo"           
+#[13] "duration_ms"      "time_signature"   "uri"              "analysis_url"  
+
+
+# Verificando as playlist de um usuário
+wh.playlist <- getPlaylist("12161883573",token=keys)
+
+#         id              name           ownerid       tracks
+# 39VPSVNmiCkKnuvuWBBIor   FORÇA       12161883573       28
+# 6ZUsHUrxSjLbm2Ay5iTGbT AXÉCALMO      12161883573       25
+
+playlist_info <- getPlaylistSongs("spotify","37i9dQZF1E4V8lhqJC8bZk",token=keys)
+#[1] "tracks"     "id"         "popularity" "artist"     "artistId"   "album"     
+#[7] "albumId"
