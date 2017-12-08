@@ -9,13 +9,13 @@
   },
   "text": {
     "more": "",
-    "intro": "",
+    "intro": "Monitoramento 30/11 - 07/12",
     "title": "Rede Negativa"
   },
   "legend": {
-    "edgeLabel": "Atores",
-    "colorLabel": "",
-    "nodeLabel": "Relação"
+    "edgeLabel": "Usuários",
+    "colorLabel": "Modularidade:  Aplicação de método de Louvain para caracterização e classificação de usuários por semelhança contextual",
+    "nodeLabel": "Relação(Menção ou RT)"
   },
   "features": {
     "search": true,
