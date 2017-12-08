@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Atores",
-    "colorLabel": "",
+    "colorLabel": "Modularidade",
     "nodeLabel": "Relação"
   },
   "features": {
