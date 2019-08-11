@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://cdn2.trampos.co/companies/logos/336537/35a4c2181d8f4eef89951df5170dc192356ca0d6/medium/logo_vertical_cores.png?1506001399",
+    "link": "",
+    "text": "Janderson Toth"
+  },
+  "text": {
+    "more": "Based on the artists bounded by the team, Spotify data was collected using the \"Fans Also Like\" application. This function returns the behavior of fans in relation to the analyzed singer. In six iterations were collected data from 15884 singers. After  treatment, singers who were out of the studied context were eliminated.",
+    "intro": "Data extracted from Spotify API based on singers Dj Gabriel do Borel, Iasmin Turbininha, FP do Trem Bala, WC no Beat, MC Kevin o Chris, Dj Rogerinho do Quero, DJ Zullu.",
+    "title": "Music Graph (Funk)"
+  },
+  "legend": {
+    "edgeLabel": "Fans Also Like",
+    "colorLabel": "Modularity",
+    "nodeLabel": "Artists"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
