@@ -3,24 +3,24 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "http://data7.blog/wp-content/uploads/2017/08/logo_240x72.png",
+    "file": "",
     "link": "",
-    "text": "Janderson Toth"
+    "text": "Janderson Pereira"
   },
   "text": {
     "more": "",
     "intro": "",
-    "title": "Grafo - The Big Ben Clock"
+    "title": "Gavin Roy Video\u0027s Co-commenting Network"
   },
   "legend": {
-    "edgeLabel": "Interação",
-    "colorLabel": "Língua falada pelo usuário",
-    "nodeLabel": "Usuários"
+    "edgeLabel": "User",
+    "colorLabel": "Groups",
+    "nodeLabel": "Video"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "color",
-    "hoverBehavior": "dim"
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "default"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
